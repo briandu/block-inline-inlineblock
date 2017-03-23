@@ -61,18 +61,45 @@ h2 {
 }
 
 .gallery {
+  display: flex;
+  flex-wrap: wrap;
+  font-family: "Helvetica";
   margin-left: 44px;
   margin-right: 44px;
+  padding-top: 24px;
   overflow: hidden;
 }
 
-.gallery div {
-  display: flex;
+.gallery img {
   position: relative;
   float: left;
-  width: 25%;
-  padding-top: 24px;
+  margin: 2px;
+  width: 440px;
+
+}
+
+.caption {
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  background-color: #FFD800;
+  padding-top: 12px;
   padding-left: 2px;
-  padding-bottom: 0;
+  padding-bottom: 16px;
   padding-right: 2px;
+  margin-top: 6px;
+  margin-left: 2px;
+}
+
+.footer {
+  display: inline-block;
+  color: white;
+  background-color: black;
+  text-align: center;
+  width: 100%;
+  font-size: 22px;
+  font-family: "Helvetica";
+  margin-top: 24px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
